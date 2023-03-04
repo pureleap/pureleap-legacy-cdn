@@ -1,0 +1,15 @@
+{
+  "packages": [
+    {
+      "packageName": "static-website-aws",
+      "templateReference": {
+        "templateName": "static-website-aws"
+      }
+    }
+  ],
+  "rootTemplateReference": {
+    "templateName": "yarn-pnp-monorepo"
+  },
+  "createdAt": "2023-03-04T20:36:39.419Z",
+  "projectName": "pureleap-legacy-cdn"
+}

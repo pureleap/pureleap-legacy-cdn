@@ -1,0 +1,19 @@
+{
+  "$schema": "./schemas/package.schema.json",
+  "name": "static-website-aws",
+  "template": "static-website-aws",
+  "templateVersion": "0.1.78",
+  "configuration": {},
+  "deployments": [
+    {
+      "name": "prod",
+      "configuration": {
+        "defaultCacheDuration": 104,
+        "hostedZoneDomain": "pureleap.com",
+        "websiteDomain": "legacy-cdn.pureleap.com"
+      },
+      "awsUser": "awsUser",
+      "awsRegion": "us-west-2"
+    }
+  ]
+}
