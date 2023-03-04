@@ -13,7 +13,8 @@
         "websiteDomain": "legacy-cdn.pureleap.com"
       },
       "awsUser": "awsUser",
-      "awsRegion": "us-west-2"
+      "awsRegion": "us-west-2",
+      "tfStateKey": "static-website-aws-prod-b8e0f08b408af24b2bb9.tfstate"
     }
   ]
 }
