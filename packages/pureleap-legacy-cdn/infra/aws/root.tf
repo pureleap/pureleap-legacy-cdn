@@ -70,9 +70,9 @@ resource "aws_cloudfront_distribution" "website_cdn_root" {
     allowed_methods  = ["GET", "HEAD", "OPTIONS"]
     cached_methods   = ["GET", "HEAD"]
     target_origin_id = "origin-bucket-${aws_s3_bucket.website_root.id}"
-    min_ttl          = "0"
+    min_ttl          = "1200"
     default_ttl      = tostring(var.default_cache_duration)
-    max_ttl          = "1200"
+    max_ttl          = "1200000"
 
     viewer_protocol_policy = "redirect-to-https" # Redirects any HTTP request to HTTPS
     compress               = true

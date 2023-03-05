@@ -8,7 +8,7 @@
     {
       "name": "prod",
       "configuration": {
-        "defaultCacheDuration": 104,
+        "defaultCacheDuration": 104000,
         "hostedZoneDomain": "pureleap.com",
         "websiteDomain": "legacy-cdn.pureleap.com"
       },
